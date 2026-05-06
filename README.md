@@ -51,6 +51,40 @@ The app handles several practical edge cases:
 
 For creativity, I treated the task as more than a basic map search. The mood-based flow turns a functional errand into a small planning assistant, and the UI uses a custom tiled texture and live motion effects to make the experience feel more personal.
 
+Example output after selecting **Quick pickup**:
+
+```text
+Your pickup plan
+⚡ Quick pickup
+Go straight to the locker and pick up your parcel.
+
+Pickup locker
+InPost WAW163M
+<locker street address>, Warszawa
+Opening hours: 24/7
+
+Route from your location
+Distance: <calculated by TomTom> km
+Estimated time: <calculated by TomTom> min
+```
+
+Example output after selecting **Coffee break**:
+
+```text
+Your pickup plan
+☕ Coffee break
+Pick up your parcel, then grab coffee nearby.
+
+Pickup locker
+InPost <locker name>
+<locker address>
+
+Nearby coffee shops from TomTom
+<coffee place name>
+<coffee place address>
+Distance: <distance in meters>
+```
+
 
 ## Technologies
 
@@ -79,8 +113,8 @@ You need:
 Clone the repository and install dependencies:
 
 ```bash
-git clone <your-repo-url>
-cd paczka-vibe
+git clone https://github.com/NadiaMejz/accessibility-first-finder.git
+cd accessibility-first-finder
 npm install
 ```
 
