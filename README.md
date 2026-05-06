@@ -143,6 +143,8 @@ Finally, I would prepare the app for deployment by adding environment-specific c
 
 I used AI assistance while refactoring and polishing the project. AI helped with splitting the original single-file `App.jsx` into a modular structure, creating reusable components, organizing API services and utility functions, improving the README, and adding CSS-based UI motion.
 
+I also used AI to look for possible bugs, review edge cases, and sometimes draft individual functions.
+
 I verified the output by reviewing the generated code, keeping the app's existing behavior intact, and running:
 
 ```bash
