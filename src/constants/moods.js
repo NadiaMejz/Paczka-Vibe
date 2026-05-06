@@ -1,0 +1,43 @@
+export const moods = [
+    {
+        id: "coffee",
+        emoji: "☕",
+        title: "Coffee break",
+        description: "For when you want to grab coffee first, then pick up your parcel a few minutes away.",
+        tomtomQuery: "coffee shop",
+        tomtomCategorySet: "9376",
+        planText: "Pick up your parcel, then grab coffee nearby.",
+    },
+    {
+        id: "quick",
+        emoji: "⚡",
+        title: "Quick pickup",
+        description: "For when you are in a rush and just need the fastest no-drama pickup route.",
+        placeTypes: [],
+        planText:   "For when you are in a rush and just need the fastest no-drama pickup route.",
+    },
+    {
+        id: "study",
+        emoji: "💻",
+        title: "Study mode",
+        description: "For when you need a laptop-friendly place to sit before or after pickup.",
+        placeTypes: ["cafe", "library"],
+        planText: "Pick up your parcel, then go somewhere chill to study.",
+    },
+    {
+        id: "late",
+        emoji: "🌙",
+        title: "Open late",
+        description: "Find a late-night grocery near the locker.",
+        placeTypes: ["convenience_store", "supermarket"],
+        planText:   "For when you are picking up after class, work, or a late-night city run.",
+    },
+    {
+        id: "walk",
+        emoji: "🚶🏼‍♀️",
+        title: "Parcel Side Quest",
+        description: "For when you want to get your steps in and pick up your parcel on the way.",
+        placeTypes: ["park", "tourist_attraction", "cafe"],
+        planText: "Pick up your parcel and turn it into a small walk.",
+    },
+];
