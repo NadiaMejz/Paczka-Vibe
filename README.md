@@ -1,4 +1,4 @@
-# Accessibility First Finder
+# Paczka Vibe
 
 ## Author
 
@@ -7,7 +7,7 @@
 
 ## Overview
 
-Accessibility First Finder is a React web application that helps users plan an InPost Paczkomat pickup around their current mood and nearby places. It combines InPost locker search, TomTom map data, routing, and place discovery to turn a simple parcel pickup into a more useful route plan.
+Paczka Vibe is a React web application that helps users plan an InPost Paczkomat pickup around their current mood and nearby places. It combines InPost locker search, TomTom map data, routing, and place discovery to turn a simple parcel pickup into a more useful route plan.
 
 The problem I chose to solve is intentionally small but practical: parcel pickup is usually treated as a single errand, but in real life people often combine it with coffee, studying, groceries, or a walk. The app narrows that vague daily-planning idea into one clear workflow: choose the kind of pickup you want, enter a locker, and get a map-based plan.
 
@@ -80,7 +80,7 @@ Clone the repository and install dependencies:
 
 ```bash
 git clone <your-repo-url>
-cd accessibility-first-finder
+cd paczka-vibe
 npm install
 ```
 
